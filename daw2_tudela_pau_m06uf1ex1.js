@@ -42,7 +42,7 @@ window.onload = function() {
                 } 
                 break;
             case 3:
-                aT[1]='System selected Paper!';
+                aT[1]='System selected Scissor!';
                 if(aR[1] === 'rock'){
                     aT[2]='You win!';
                     aC[1]++;
@@ -57,7 +57,7 @@ window.onload = function() {
                     aC[0]++;
                 } 
         }
-        document.getElementById('exit1').innerHTML=`<b>User: ${aC[1]}, System: ${aC[0]}</b>`;
+        document.getElementById('exit1').innerHTML=`<b>User: ${aC[1]} | System: ${aC[0]}</b>`;
         document.getElementById('exit2').innerHTML=`<b>${aT[1]}</b>`;
         setTimeout(500);
         document.getElementById('exit3').innerHTML=`<b>${aT[2]}</b>`;
