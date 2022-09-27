@@ -23,8 +23,7 @@ window.onload = function() {
                 } else{
                     aT[2]='You lose...';
                     aC[0]++;
-                } 
-                break;
+                } break;
             case 2:
                 aT[1]='System selected Paper!';
                 if(aR[1] === 'rock'){
@@ -39,8 +38,7 @@ window.onload = function() {
                 } else{
                     aT[2]='You lose...';
                     aC[0]++;
-                } 
-                break;
+                } break;
             case 3:
                 aT[1]='System selected Scissor!';
                 if(aR[1] === 'rock'){
