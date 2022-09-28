@@ -64,8 +64,7 @@ window.onload = function() {
     }
 
     document.getElementById('btnR').onclick = function() {
-        cU = 0;
-        cS = 0;
+        aC = [0,0,0];
         document.getElementById('exit1').innerHTML='<b>User: 0 | System: 0 | Draws: 0</b>';
         document.getElementById('exit2').innerHTML='';
         document.getElementById('exit3').innerHTML='';
