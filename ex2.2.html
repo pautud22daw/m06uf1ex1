@@ -60,12 +60,12 @@
 				r /= temps.length;
 
 				if(check[0].checked){
-					txt += `La temperatura mitja en celsius es ${ r }<br>`
+					txt += `La temperatura mitja en celsius es ${ r.toFixed(1) }<br>`
 				}if(check[1].checked){
-					txt += `La temperatura mitja en fahrenheit es ${ ( 9 * r ) / 5 + 32 }<br>`
+					txt += `La temperatura mitja en fahrenheit es ${ (( 9 * r ) / 5 + 32).toFixed(1) }<br>`
 					//((9 * Celsius) / 5) + 32
 				}if(check[2].checked){
-					txt += `La temperatura mitja en kelvin es ${ r + 273 }<br>`
+					txt += `La temperatura mitja en kelvin es ${ (r + 273).toFixed(1) }<br>`
 					//273 + Celsius
 				}
 
